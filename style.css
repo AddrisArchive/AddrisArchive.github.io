@@ -1,0 +1,113 @@
+/* --------------------
+   FONT IMPORT
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers&display=swap');
+
+/* --------------------
+   ROOT COLORS
+-------------------- */
+:root {
+  --cream: #f7f5f2;
+  --sage: #9caf9f;
+  --ink: #2b2b2b;
+  --soft-gray: #6b6b6b;
+}
+
+/* --------------------
+   GLOBAL STYLES
+-------------------- */
+body {
+  margin: 0;
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.7;
+}
+
+/* --------------------
+   NAVIGATION
+-------------------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--ink);
+  margin-left: 2rem;
+  font-family: 'Life Savers', cursive;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--sage);
+}
+
+/* --------------------
+   HERO SECTION
+-------------------- */
+.hero {
+  padding: 6rem 3rem 4rem;
+  max-width: 800px;
+}
+
+.hero p {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+/* --------------------
+   SECTION HEADINGS
+-------------------- */
+h1, h2, h3 {
+  font-family: 'Life Savers', cursive;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+/* --------------------
+   CONTENT SECTIONS
+-------------------- */
+section {
+  padding: 4rem 3rem;
+  max-width: 900px;
+}
+
+.section-description {
+  color: var(--soft-gray);
+  max-width: 600px;
+}
+
+/* --------------------
+   BUTTONS / LINKS
+-------------------- */
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--sage);
+  text-decoration: none;
+  color: var(--ink);
+  font-family: 'Life Savers', cursive;
+}
+
+.button:hover {
+  background-color: var(--sage);
+  color: white;
+}
+
+/* --------------------
+   FOOTER
+-------------------- */
+footer {
+  padding: 3rem;
+  font-size: 0.85rem;
+  color: var(--soft-gray);
+}
